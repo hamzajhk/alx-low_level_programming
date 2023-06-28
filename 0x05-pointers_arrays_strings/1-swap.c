@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - writ function that swap value of two integres
+ * sawp_int - writ function that swap value of two integres
  * @a: integer to swap
  * @b: integer to swap
  * Return : 0
