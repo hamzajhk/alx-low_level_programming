@@ -7,7 +7,7 @@
  * @grid: 2d grid
  * @height: height dimmension of grid
  * description: frees memory of grid
- * return: nothing
+ * Return: nothing
  */
 void free_grid(int **grid, int height)
 {
