@@ -1,15 +1,14 @@
 #include "main.h"
 #include <stdlib.h>
-
 /**
- * creat_array - creat array of size size and assign char c
+ * create_array - create array of size size and assign char c
  * @size: size of array
  * @c: char to assign
- * description: create array of size size and assign char c
- * return: pointer to array, NULL if fail
+ * Description: create array of size size and assign char c
+ * Return: pointer to array, NULL if fail
  *
  */
-char *creat_array(unsigned int size, char c)
+char *create_array(unsigned int size, char c)
 {
 	char *str;
 	unsigned int i;
@@ -22,3 +21,4 @@ char *creat_array(unsigned int size, char c)
 		str[i] = c;
 	return (str);
 }
+
